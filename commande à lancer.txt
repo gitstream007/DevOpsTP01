@@ -1,0 +1,1 @@
+docker build -t devopstp1 . && docker run --rm -it --name devopstp1_container -p 8080:80 devopstp1
